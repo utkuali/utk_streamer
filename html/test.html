@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FiveM Stream</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="device">
+            <canvas id="self-render" class="content-area"></canvas>
+            <video id="target-stream" class="content-area" style="display: none;" autoplay muted></video>
+            <div id="chat">
+                <div id="chat-area"></div>
+                <input id="chat-input" type="text" placeholder="Chat...">
+            </div>
+            <div id="input-area">
+                <div id="title">You are not watching or hosting a stream</div>
+                <br>
+                <button id="start-stream">Start Streaming</button>
+                <button id="stop-stream">Stop Stream</button>
+                <input id="join-stream-code" type="text" placeholder="Stream code"><button id="join-stream">Join Stream</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="/script.js"></script>
+    <script src="test.js"></script>
+</body>
+</html>
