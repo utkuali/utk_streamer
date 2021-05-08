@@ -1,7 +1,7 @@
 //! CONFIG
 
-const uploadUrl = "https://nimakarbalaei.ir/fivem/"; //? default upload url
-const uploadField = "files[]"; //? default upload field
+const uploadUrl = ""; //? default upload url
+const uploadField = ""; //? default upload field
 
 //! CONFIG
 
